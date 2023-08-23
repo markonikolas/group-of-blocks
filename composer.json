@@ -1,0 +1,23 @@
+{
+    "name": "n1c01ash/group-of-blocks",
+    "description": "An awesome collection of blocks.",
+    "type": "project",
+    "license": "GPL-3.0 or later",
+    "autoload": {
+        "files": [
+            "src/inc/classes/base/class-singleton.php",
+            "src/inc/classes/concrete/class-groupofblocks.php",
+            "src/inc/classes/concrete/class-blockloader.php"
+        ],
+        "psr-4": {
+            "GroupOfBlocks\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marko Nikolaš",
+            "email": "marko.nikolas@news.co.uk"
+        }
+    ],
+    "require": {}
+}
